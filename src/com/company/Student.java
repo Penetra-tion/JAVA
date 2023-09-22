@@ -25,6 +25,7 @@ public class Student
     @JsonGetter("checkPoints")
     public int[] getCheckPoints() {
         return checkPoints;
+
     }
     @JsonGetter("Number")
     public int getNumber() {
